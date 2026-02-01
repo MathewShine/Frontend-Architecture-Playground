@@ -1,0 +1,56 @@
+/* Landing Header Responsive Styles */
+
+.landing-header-toolbar {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-wrapper {
+  margin-right: 16px;
+}
+
+/* Tablet and below (below 1400px) */
+@media (max-width: 1400px) {
+  .toggle-wrapper {
+    margin-right: 20px;
+  }
+}
+
+/* Mobile (below 900px) */
+@media (max-width: 900px) {
+  .landing-header-toolbar {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  
+  .toggle-wrapper {
+    margin-right: 12px;
+  }
+}
+
+/* Small mobile (below 600px) */
+@media (max-width: 600px) {
+  .landing-header-toolbar {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  
+  .toggle-wrapper {
+    margin-right: 8px;
+  }
+}
+
+/* Very small mobile (below 400px) */
+@media (max-width: 400px) {
+  .landing-header-toolbar {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+  
+  .toggle-wrapper {
+    margin-right: 6px;
+  }
+}
